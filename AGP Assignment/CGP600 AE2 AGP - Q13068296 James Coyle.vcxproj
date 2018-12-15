@@ -138,13 +138,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Enemies.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Game_Manager.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Lighting.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Non_Static_Object.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="Sound_Manager.cpp" />
+    <ClCompile Include="Static_Object.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Texture_Loader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="shaders.hlsl">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="Enemies.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Game_Manager.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Lighting.h" />
+    <ClInclude Include="Non_Static_Object.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="Sound_Manager.h" />
+    <ClInclude Include="Static_Object.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Texture_Loader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
