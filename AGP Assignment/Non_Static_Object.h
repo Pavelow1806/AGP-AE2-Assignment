@@ -1,5 +1,6 @@
 #pragma once
-class Non_Static_Object
+#include "Entity.h"
+class Non_Static_Object : public Entity
 {
 public:
 	Non_Static_Object();

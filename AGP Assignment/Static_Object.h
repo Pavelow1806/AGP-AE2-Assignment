@@ -1,5 +1,6 @@
 #pragma once
-class Static_Object
+#include "Entity.h"
+class Static_Object : public Entity
 {
 public:
 	Static_Object();

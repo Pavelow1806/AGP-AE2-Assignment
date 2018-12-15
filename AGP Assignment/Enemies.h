@@ -1,5 +1,6 @@
 #pragma once
-class Enemies
+#include "AI.h"
+class Enemies : public AI
 {
 public:
 	Enemies();

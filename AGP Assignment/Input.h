@@ -1,5 +1,6 @@
 #pragma once
-class Input
+#include "Ship.h"
+class Input : public Ship
 {
 public:
 	Input();

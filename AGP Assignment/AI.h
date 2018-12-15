@@ -1,5 +1,6 @@
 #pragma once
-class AI
+#include "Ship.h"
+class AI : public Ship
 {
 public:
 	AI();

@@ -1,5 +1,6 @@
 #pragma once
-class Player
+#include "Input.h"
+class Player : public Input
 {
 public:
 	Player();
